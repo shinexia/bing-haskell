@@ -1,0 +1,3 @@
+# bing-rest
+
+RESTfull API

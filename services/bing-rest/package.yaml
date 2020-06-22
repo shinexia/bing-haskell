@@ -1,0 +1,32 @@
+name: bing-rest
+
+ghc-options:  -Wall
+
+library:
+  source-dirs:
+    - src
+
+executables:
+  bing-rest:
+    main: exec/Main.hs
+    dependencies:
+      - bing-rest
+
+dependencies:
+  - base
+  - aeson
+  - base-compat
+  - bytestring
+  - bing-core
+  - bing-data
+  - either
+  - HDBC
+  - HDBC-mysql
+  - lens
+  - mtl
+  - servant        >= 0.12
+  - servant-server >= 0.12
+  - text
+  - transformers
+  - wai
+  - warp

@@ -1,0 +1,47 @@
+name: bing-task
+
+ghc-options:
+  - -Wall
+  - -fwarn-tabs
+  - -funbox-strict-fields
+  - -threaded
+  - -with-rtsopts=-N1
+  - -with-rtsopts=-T
+  - -rtsopts
+
+library:
+  source-dirs:
+    - src
+
+executables:
+  bing-task:
+    main: exec/Main.hs
+    dependencies:
+      - bing-task
+
+dependencies:
+  - base
+  - aeson
+  - attoparsec
+  - text
+  - base-compat
+  - bing-core
+  - bing-bot
+  - bing-data
+  - bytestring
+  - bytestring-conversion
+  - convertible
+  - configurator
+  - cron
+  - directory
+  - HDBC
+  - HDBC-mysql
+  - http-conduit
+  - regex-pcre
+  - lens
+  - lens-aeson
+  - lifted-base
+  - mtl
+  - transformers
+  - time
+  - unix

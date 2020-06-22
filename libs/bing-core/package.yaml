@@ -1,0 +1,14 @@
+name: bing-core
+
+ghc-options: -Wall
+
+library:
+  source-dirs:
+    - src
+
+dependencies:
+  - base
+  - aeson
+  - base-compat
+  - bytestring
+  - text

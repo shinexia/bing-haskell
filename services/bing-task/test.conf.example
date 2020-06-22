@@ -1,0 +1,4 @@
+db_mysql_user = "root"
+db_mysql_password = "<pw>"
+db_mysql_database = "demo"
+db_mysql_host = "127.0.0.1"

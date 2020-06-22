@@ -1,0 +1,27 @@
+name: bing-data
+
+ghc-options: -Wall
+
+library:
+  source-dirs:
+    - src
+
+dependencies:
+  - aeson
+  - base
+  - base-compat
+  - bing-core
+  - bytestring
+  - bytestring-conversion
+  - convertible
+  - configurator
+  - containers
+  - HDBC
+  - HDBC-mysql
+  - lens
+  - lens-aeson
+  - lifted-base
+  - mtl
+  - text
+  - transformers
+  - utf8-string

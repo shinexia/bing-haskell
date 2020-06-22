@@ -1,0 +1,21 @@
+name: bing-cli
+
+ghc-options:
+  -Wall
+
+library:
+  source-dirs:
+    - src
+
+executables:
+  bing-cli:
+    main: exec/Main.hs
+    dependencies:
+      - bing-cli
+
+dependencies:
+  - base
+  - aeson
+  - base-compat
+  - bytestring
+  - text

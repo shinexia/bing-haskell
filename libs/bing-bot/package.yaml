@@ -1,0 +1,18 @@
+name: bing-bot
+
+ghc-options:
+  -Wall
+
+library:
+  source-dirs:
+    - src
+
+dependencies:
+  - base
+  - aeson
+  - base-compat
+  - bing-core
+  - bytestring
+  - http-client
+  - http-conduit
+  - text
