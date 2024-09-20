@@ -8,8 +8,8 @@ library:
     - src
 
 executables:
-  bing-cli:
-    main: exec/Main.hs
+  bingcli:
+    main: cmd/Main.hs
     dependencies:
       - bing-cli
 

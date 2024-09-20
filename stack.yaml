@@ -15,7 +15,7 @@
 # resolver:
 #  name: custom-snapshot
 #  location: "./custom-snapshot.yaml"
-resolver: lts-9.2
+resolver: lts-12.26
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -39,15 +39,15 @@ packages:
 - 'libs/bing-core'
 - 'libs/bing-data'
 - 'libs/bing-bot'
-- 'services/bing-task'
-- 'services/bing-rest'
-- 'tools/bing-cli'
+- 'cmd/bing-task'
+- 'cmd/bing-rest'
+- 'cmd/bing-cli'
 
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 extra-deps:
-  - servant-0.12
-  - servant-server-0.12
+  - servant-0.14.1
+  - servant-server-0.14.1
 
 # Override default flag values for local packages and extra-deps
 flags: {}

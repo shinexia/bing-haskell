@@ -8,7 +8,7 @@ library:
 
 executables:
   bing-rest:
-    main: exec/Main.hs
+    main: cmd/Main.hs
     dependencies:
       - bing-rest
 
